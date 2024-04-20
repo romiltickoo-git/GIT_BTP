@@ -19,7 +19,7 @@ app.get('/weather',(req, res) => {
 var request = require('request');
 var options = {
   'method': 'GET',
-  'url': 'https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=8ce34d6fc9e29d253b05f7a5f8ef3006&appid=8ce34d6fc9e29d253b05f7a5f8ef3006',
+  'url': 'https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=&appid=<PUT YOUR API KEY>',
   'headers': {
   }
 };
